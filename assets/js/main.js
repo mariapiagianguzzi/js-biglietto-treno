@@ -29,4 +29,4 @@ if (age < 18){
 //PREZZO FINALE// 
 var prezzoFinale = kmPrice - sconto; 
 
-document.getElementById('prezzo').innerHTML = prezzoFinale;
+document.getElementById('prezzo').innerHTML = prezzoFinale.toFixed(2);
